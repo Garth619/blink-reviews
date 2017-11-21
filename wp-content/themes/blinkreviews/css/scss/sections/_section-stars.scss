@@ -28,7 +28,7 @@ section.stars_prompt {
 
 
 svg.logo {
-	max-width:450px;
+	max-width:300px;
 	width:100%;
 	position: relative;
 	
@@ -42,7 +42,7 @@ svg.logo {
 	width: 15px;
   height: 15px;
 	background: $pink;
-	border-radius: 50%;
+	
 	position: absolute;
 	top: 5px;
   left: 147px;
@@ -50,10 +50,10 @@ svg.logo {
   
   
   
-  animation-name: preloader_fade;
-  animation-duration: 1800ms;
+  animation-name: preloader_fade, preloader_shape;
+  animation-duration: 1800ms, 100ms;
   animation-fill-mode: both;
-  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98), linear;
   animation-delay: 2s;
   
 
@@ -88,6 +88,19 @@ svg.logo {
 
 
 
+@keyframes preloader_shape {
+  from {
+    border-radius: 0;
+ 		
+  }
+
+  to {
+    
+    border-radius: 50%;
+    
+  }
+  
+}
 
 
 span.stars_title {
@@ -107,13 +120,21 @@ span.stars_title {
 }
 
 
-svg.star {
+.single_star {
 	width:15%;
 	margin:0 1%;
-	.star-fill {
-		fill:$pink;
+	display: inline-block;
+	svg.star {
+		
+		.star-fill {
+			fill:$pink;
+		}
 	}
 }
+
+
+
+
 
 
 

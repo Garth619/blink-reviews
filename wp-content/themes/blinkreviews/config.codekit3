@@ -30,6 +30,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -69,6 +82,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/sections\/_section-preloader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/sections\/_section-preloader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/sections\/_section-stars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/sections\/_section-stars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -81,6 +120,128 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/fonts\/demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/GlosaDisplay-Black.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/GlosaDisplay-Black.eot",
+		"oF": 0
+		},
+	"\/fonts\/GlosaDisplay-Black.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/GlosaDisplay-Black.ttf",
+		"oF": 0
+		},
+	"\/fonts\/GlosaDisplay-Black.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/GlosaDisplay-Black.woff",
+		"oF": 0
+		},
+	"\/fonts\/HoneyScript-Light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/HoneyScript-Light.eot",
+		"oF": 0
+		},
+	"\/fonts\/HoneyScript-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/HoneyScript-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/HoneyScript-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/HoneyScript-Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/HoneyScript-SemiBold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/HoneyScript-SemiBold.eot",
+		"oF": 0
+		},
+	"\/fonts\/HoneyScript-SemiBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/HoneyScript-SemiBold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/HoneyScript-SemiBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/HoneyScript-SemiBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/JosefinSans-SemiBold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/JosefinSans-SemiBold.eot",
+		"oF": 0
+		},
+	"\/fonts\/JosefinSans-SemiBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/JosefinSans-SemiBold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/JosefinSans-SemiBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/JosefinSans-SemiBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/JosefinSans.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/JosefinSans.eot",
+		"oF": 0
+		},
+	"\/fonts\/JosefinSans.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/JosefinSans.ttf",
+		"oF": 0
+		},
+	"\/fonts\/JosefinSans.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/JosefinSans.woff",
+		"oF": 0
+		},
+	"\/fonts\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/footer.php": {
 		"cB": 0,
@@ -103,23 +264,39 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
-	"\/homepage_template_parts\/section-1.php": {
+	"\/homepage_template_parts\/section-preloader.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/homepage_template_parts\/section-1.php",
+		"oAP": "\/homepage_template_parts\/section-preloader.php",
 		"oF": 0
 		},
-	"\/images\/screenshot.png": {
-		"ft": 32768,
-		"iS": 57403,
+	"\/homepage_template_parts\/section-stars.php": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/images\/screenshot.png",
+		"oAP": "\/homepage_template_parts\/section-stars.php",
+		"oF": 0
+		},
+	"\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pre-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pre-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/index.php": {
 		"cB": 0,
@@ -189,8 +366,8 @@
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -245,7 +422,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -1631,7 +1808,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/blink-reviews.com",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

@@ -24,6 +24,10 @@
 		
 		<div class="stars_icons">
 			
+			<!-- https://codepen.io/brianknapp/pen/JEotD -->
+			
+			<!-- https://codereview.stackexchange.com/questions/164933/jquery-hover-and-click-events-for-a-five-star-rating -->
+			
 			<svg class="star" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 499.66 475.21">
 				
 				<polygon class="star-fill" points="249.83 0 327.03 156.43 499.66 181.51 374.75 303.28 404.24 475.21 249.83 394.03 95.43 475.21 124.92 303.28 0 181.51 172.63 156.43 249.83 0"/>

@@ -111,37 +111,76 @@ span.stars_title {
 	margin-bottom:25px;
 }
 
-
-.stars_icons {
-	max-width: 500px;
-	width:100%;
-	margin-left: auto;
-	margin-right:auto;
+.star_wrapper {
+	display: block;
+	width:400px;
+	margin:0 auto;
 }
 
 
-.single_star {
-	width:15%;
-	margin:0 1%;
-	display: inline-block;
-	svg.star {
-		
-		.star-fill {
-			fill:$pink;
-		}
+
+.star_wrapper span.star_icon, .star_wrapper span.star_icon:hover ~ span.star_icon {
+  color: $grey;
+  transition: color 200ms;
+	transition-delay: 0;
+}
+
+
+.star_wrapper:hover span.star_icon, .star_wrapper span.star_icon.active {
+  color: $pink;
+  
+}
+
+.star_wrapper:hover span.star_icon:nth-child(2) {
+  transition-delay: 30ms;
+}
+
+.star_wrapper:hover span.star_icon:nth-child(3) {
+  transition-delay: 60ms;
+}
+
+.star_wrapper:hover span.star_icon:nth-child(4) {
+  transition-delay: 90ms;
+}
+
+.star_wrapper:hover span.star_icon:nth-child(5) {
+  transition-delay: 120ms;
+}
+
+
+.star_wrapper span.star_icon {
+  cursor: pointer;
+  font-size:75px;
+  display: inline-block;
+}
+
+
+
+@media screen and (max-width: 560px) {
+	
+	
+	
+	span.stars_title {
+		max-width:265px;
+		margin-left:auto;
+		margin-right:auto;
 	}
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 490px) {
 	
 	
 	
+} /* Media Query */
+
+
+@media screen and (max-width: 450px) {
+	
+	
+	.star_wrapper {
+		width: 305px;
+	}
+	
+	.star_wrapper span.star_icon {
+		font-size:57px;
+	}
 	
 	
 } /* Media Query */

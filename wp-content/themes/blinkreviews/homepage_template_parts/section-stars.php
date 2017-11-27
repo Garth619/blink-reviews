@@ -21,67 +21,22 @@
 		
 		<span class="stars_title">How happy are you with your visit?</span>
 		
+	
+			
+			<div class="star_wrapper">
+				
+				<span class="star_icon">&bigstar;</span>
+				<span class="star_icon">&bigstar;</span>
+				<span class="star_icon">&bigstar;</span>
+				<span class="star_icon">&bigstar;</span>
+				<span class="star_icon">&bigstar;</span>
+			
+			</div><!-- star_wrapper -->
+			
+	
 		
-		<div class="stars_icons">
-			
-			<!-- https://codepen.io/brianknapp/pen/JEotD -->
-			
-			<!-- https://codereview.stackexchange.com/questions/164933/jquery-hover-and-click-events-for-a-five-star-rating -->
-			
-			<!-- https://codepen.io/depy/pen/vEWWdw -->
-			
-			<div class="single_star" data-rating-value="1">
-			
-				<svg class="star" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 499.66 475.21">
-				
-					<polygon class="star-fill" points="249.83 0 327.03 156.43 499.66 181.51 374.75 303.28 404.24 475.21 249.83 394.03 95.43 475.21 124.92 303.28 0 181.51 172.63 156.43 249.83 0"/>
-				
-				</svg>
-			
-			</div><!-- single_star -->
-			
-			<div class="single_star" data-rating-value="2">
-			
-				<svg class="star" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 499.66 475.21">
-				
-					<polygon class="star-fill" points="249.83 0 327.03 156.43 499.66 181.51 374.75 303.28 404.24 475.21 249.83 394.03 95.43 475.21 124.92 303.28 0 181.51 172.63 156.43 249.83 0"/>
-				
-				</svg>
-			
-			</div><!-- single_star -->
-			
-			<div class="single_star" data-rating-value="3">
-			
-				<svg class="star" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 499.66 475.21">
-				
-					<polygon class="star-fill" points="249.83 0 327.03 156.43 499.66 181.51 374.75 303.28 404.24 475.21 249.83 394.03 95.43 475.21 124.92 303.28 0 181.51 172.63 156.43 249.83 0"/>
-				
-				</svg>
-			
-			</div><!-- single_star -->
-			
-			<div class="single_star" data-rating-value="4">
-			
-				<svg class="star" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 499.66 475.21">
-				
-					<polygon class="star-fill" points="249.83 0 327.03 156.43 499.66 181.51 374.75 303.28 404.24 475.21 249.83 394.03 95.43 475.21 124.92 303.28 0 181.51 172.63 156.43 249.83 0"/>
-				
-				</svg>
-			
-			</div><!-- single_star -->
-			
-			<div class="single_star" data-rating-value="5">
-			
-				<svg class="star" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 499.66 475.21">
-				
-					<polygon class="star-fill" points="249.83 0 327.03 156.43 499.66 181.51 374.75 303.28 404.24 475.21 249.83 394.03 95.43 475.21 124.92 303.28 0 181.51 172.63 156.43 249.83 0"/>
-				
-				</svg>
-			
-			</div><!-- single_star -->
-			
-			
-		</div><!-- stars_icons -->
+		
+		
 	
 	</div><!-- star_prompt_inner -->
 	

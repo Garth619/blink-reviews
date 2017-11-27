@@ -2,15 +2,15 @@ jQuery(document).ready(function($){
   
 
 
-/*
-	$('.single_star').click(function() {
-    
-    $(this).addClass('active').siblings().removeClass('active');
-    $(this).parent().attr('data-rating-value', $(this).data('rating-value'));
+	$('.star_wrapper span.star_icon').on('click', function(e) {
+  
+  	
+  	$('.star_wrapper span.star_icon').removeClass('active');
+  	
+  	$(this).addClass('active');
+  	$(this).prevAll().addClass('active');
 	
 	});
-*/
-
 
 
 

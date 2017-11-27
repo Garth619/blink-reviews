@@ -7,7 +7,7 @@
 
 <?php  get_template_part( 'homepage_template_parts/section', 'preloader' );?>
 <?php  get_template_part( 'homepage_template_parts/section', 'stars' );?>
-
+<?php  get_template_part( 'homepage_template_parts/section', 'deals' );?>
 
 
 

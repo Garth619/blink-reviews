@@ -82,6 +82,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/sections\/_section-deals.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/sections\/_section-deals.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/sections\/_section-preloader.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -262,6 +275,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-deals.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-deals.php",
 		"oF": 0
 		},
 	"\/homepage_template_parts\/section-preloader.php": {

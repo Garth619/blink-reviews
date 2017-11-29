@@ -2,8 +2,6 @@ jQuery(document).ready(function($){
   
 
 
-
-
 	$('.star_wrapper span.star_icon').on('click', function(e) {
   
   	
@@ -17,9 +15,7 @@ jQuery(document).ready(function($){
 	
 	
 
-	
-	
-	$('.deals_tab').on('click', function(e) {
+$('.deals_tab').on('click', function(e) {
 	  
 	
 		$('section.deals').toggleClass('open');
@@ -28,8 +24,27 @@ jQuery(document).ready(function($){
 	});
 	
 	
+// Validation hooks for parent divs
 	
-	// $('.gform_wrapper ul li').append('<img class="icon" src="wp-content/themes/blinkreviews/images/comment.svg"/>');
+	
+$(document).on('lv_after_field_valid',function(event,element){
+
+		$(element).parent().parent().addClass('success');
+		$(element).parent().parent().removeClass('invalid');
+
+});
+
+
+// Validation hooks for parent divs
+
+
+$(document).on('lv_after_field_invalid',function(event,element){
+
+		$(element).parent().parent().addClass('invalid');
+		$(element).parent().parent().removeClass('success');
+
+});
+
 
 
 

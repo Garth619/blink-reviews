@@ -328,11 +328,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/date.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/date.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/deals.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/deals.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/green.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/green.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -398,11 +418,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/SVG\/date.svg": {
+	"\/images\/red.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/SVG\/date.svg",
+		"oAP": "\/images\/red.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

@@ -11,7 +11,6 @@
 		<?php gravity_form(1, false, false, false, '', true, 12); ?>
 
 		
-		
 	</div><!-- form_wrapper -->
 	
 	

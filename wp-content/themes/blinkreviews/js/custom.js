@@ -26,6 +26,10 @@ jQuery(document).ready(function($){
 	
 	
 	});
+	
+	
+	
+	// $('.gform_wrapper ul li').append('<img class="icon" src="wp-content/themes/blinkreviews/images/comment.svg"/>');
 
 
 

@@ -6,7 +6,9 @@ section.section_form {
 	top:0;
 	left:0;
 	z-index:5000;
+	
 }
+
 
 span.form_title {
 	font-family: $josefin;
@@ -14,5 +16,138 @@ span.form_title {
 	font-size: 35px;
 	text-align: center;
 	display: block;
+}
+
+
+
+.form_wrapper {
+	max-width:760px;
+	margin:0 auto;
+	padding:0 30px;
+}
+
+
+.gform_wrapper {
+	margin-top:35px;
+	ul {
+		list-style: none;
+		overflow: hidden;
+		li:not(#field_1_1) {
+			width:50%;
+			float:left;
+		}
+		li {
+			&:before {
+				content:"";
+				display: block;
+				position: absolute;
+				width:28px;
+				height:34px;
+				background-size: 28px 34px;
+				top:15px;
+				left:10px;
+			}
+		}
+		li#field_1_1 {
+			&:before {
+				background: url(#{$themePath}images/comment.svg) top left no-repeat;
+			}
+		}
+		li#field_1_2, li#field_1_3 {
+			&:before {
+				background: url(#{$themePath}images/person.svg) top left no-repeat;
+			}
+		}
+		li#field_1_4 {
+			&:before {
+				background: url(#{$themePath}images/mail.svg) top left no-repeat;
+				top:25px;
+			}
+		}
+		li#field_1_5 {
+			&:before {
+				background: url(#{$themePath}images/phone.svg) top left no-repeat;
+				top:19px;
+				left:13px;
+			}
+		}
+		li#field_1_6 {
+			&:before {
+				background: url(#{$themePath}images/location.svg) top left no-repeat;
+				top:19px;
+			}
+		}
+		li#field_1_8 {
+			&:before {
+				background: url(#{$themePath}images/date.svg) top left no-repeat;
+				top:18px;
+				left:8px;
+			}
+		}
+		li {
+			position: relative;
+			width:100%;
+			display: block;
+			label {
+				display: none;
+			}
+			input, textarea {
+				width:100%;
+				border:1px solid #e7e7e7;
+				border-bottom: none;
+				display: block;
+				font-family: $josefin;
+				color:$grey;
+				font-size:20px;
+				
+			}
+			input {
+				height:70px;
+				padding:0px 0 0 45px;
+			}
+			textarea {
+				display: block;
+				height:250px;
+				padding:18px 0 0 45px;
+			}
+			.gfield_description, .validation_message {
+				position: absolute;
+				bottom:0;
+				left:0;
+				&:before {
+					content:"";
+					width:25px;
+					height:25px;
+					background: green;
+					display: block;
+					position: absolute;
+					top:0;
+					right:0;
+				}
+			}
+		}
+		li:nth-of-type(2n + 2) {
+			input {
+				border-right:none;
+			}
+		}
+		li:nth-of-type(6), li:nth-of-type(7) {
+			border-bottom: 1px solid #e7e7e7;
+		}
+		li#field_1_9 {
+			display: none;
+		}
+	}
+	input.gform_button {
+		background: $pink;
+		border:none;
+		font-family: $josefinsemibold;
+		color:#fff;
+		text-transform: uppercase;
+		font-size:25px;
+		padding:10px 20px 6px;
+		display: block;
+		margin:35px auto;
+	}
 }
 

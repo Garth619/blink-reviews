@@ -13,11 +13,21 @@ jQuery(document).ready(function($){
 	});
 	
 
-	$('.star_icon_one, .star_icon_two').on('click', function(e) {
+	$('.star_icon_one, .star_icon_two, .star_icon_three').on('click', function(e) {
 	  
 		$('section.stars_prompt').fadeOut();
 		
 		$('section.section_form').delay(600).fadeIn();
+	
+	
+	});
+	
+	
+	$('.star_icon_four, .star_icon_five').on('click', function(e) {
+	  
+		$('section.stars_prompt').fadeOut();
+		
+		$('section.section_location').delay(600).fadeIn();
 	
 	
 	});

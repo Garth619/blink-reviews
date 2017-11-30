@@ -6,6 +6,8 @@ section.section_form {
 	top:0;
 	left:0;
 	z-index:5000;
+	
+	overflow-y: scroll;
 	svg.logo {
 		max-width:300px;
 		width:100%;
@@ -52,6 +54,9 @@ span.pink_accent {
 
 .gform_wrapper {
 	margin-top:35px;
+	.gform_body {
+		margin-top:45px;
+	}
 	ul {
 		list-style: none;
 		&:after {
@@ -187,6 +192,11 @@ span.pink_accent {
 		padding:10px 30px 6px;
 		display: block;
 		margin:35px auto;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: #ea8cac;
+		}
 	}
 }
 
@@ -207,6 +217,43 @@ span.pink_accent {
 	right:0;
 */
 	display: none;
+}
+
+
+
+
+.success_wrapper {
+	img.pink_success {
+		width:150px;
+	}
+}
+
+
+span.success_title {
+	color:$pink;
+	font-family: $honeyscriptlight;
+	font-size:124px;
+	display: block;
+	margin:30px 0 0 0;
+}
+
+
+span.success_content {
+	color:$grey;
+	font-family: $josefin;
+	font-size:35px;
+	max-width:500px;
+	display: block;
+}
+
+
+span.management_title {
+	color:$grey;
+	font-family: $josefin;
+	font-size:23px;
+	max-width:500px;
+	display: block;
+	margin:35px 0;
 }
 
 

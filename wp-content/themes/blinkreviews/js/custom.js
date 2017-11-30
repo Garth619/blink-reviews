@@ -12,6 +12,16 @@ jQuery(document).ready(function($){
 	
 	});
 	
+
+	$('.star_icon_one, .star_icon_two').on('click', function(e) {
+	  
+		$('section.stars_prompt').fadeOut();
+		
+		$('section.section_form').delay(600).fadeIn();
+	
+	
+	});
+	
 	
 	
 

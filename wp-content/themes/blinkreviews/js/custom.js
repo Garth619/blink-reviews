@@ -73,6 +73,20 @@ $(document).on('lv_after_field_invalid',function(event,element){
 $('.single_location_wrapper').on('click', function(e) {
 	
 	$(this).addClass('selected');
+	
+	// Fade away other location
+	
+	$('.single_location_wrapper').not(this).fadeOut();
+	
+	
+	// Fade Logo and CTAs
+	
+	$('section.section_location .location_tee_up').addClass('fade');
+	
+	// Call in Location Social Icons
+	
+	$('.choose_wrapper').addClass('selected')
+	
   
 });
 

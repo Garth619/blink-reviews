@@ -11,44 +11,57 @@
 	
 	<span class="pink_accent"></span><!-- pink_accents -->
 	
-	<div class="single_location_wrapper">
-		
-		<div class="single_locaton_image">
-			
-			<img class="single_location_image" src="<?php bloginfo('template_directory');?>/images/mission-valley-bw.png"/>
-			
-			<img class="single_location_image color_image" src="<?php bloginfo('template_directory');?>/images/mission-valley.png"/>
-			
-			
-			
-			<img class="location_selected" src="<?php bloginfo('template_directory');?>/images/green.svg"/>
-			
-		</div><!-- single_locaton_image -->
-		
-		<span class="location_title">Mission Valley</span><!-- location_title -->
-		
-	</div><!-- single_location_wrapper -->
-	
-	<div class="single_location_wrapper">
-		
-		<div class="single_locaton_image">
-			
-			<img class="single_location_image" src="<?php bloginfo('template_directory');?>/images/mission-valley-bw.png"/>
-			
-			<img class="single_location_image color_image" src="<?php bloginfo('template_directory');?>/images/mission-valley.png"/>
-			
-			
-			
-			<img class="location_selected" src="<?php bloginfo('template_directory');?>/images/green.svg"/>
-			
-		</div><!-- single_locaton_image -->
-		
-		<span class="location_title">Mission Valley</span><!-- location_title -->
-		
-	</div><!-- single_location_wrapper -->
-	
-	
 	</div><!-- location_tee_up -->
+	
+	<div class="location_wrapper">
+	
+	<div class="single_location_wrapper left_location">
+		
+		<div class="single_locaton_image_wrapper">
+			
+			<img class="single_location_image" src="<?php bloginfo('template_directory');?>/images/mission-valley-bw.png"/>
+			
+			<img class="single_location_image color_image" src="<?php bloginfo('template_directory');?>/images/mission-valley.png"/>
+			
+			
+			
+			<img class="location_selected" src="<?php bloginfo('template_directory');?>/images/green.svg"/>
+			
+		</div><!-- single_locaton_image -->
+		
+		<span class="location_title">Mission Valley</span><!-- location_title -->
+		
+		
+		
+	</div><!-- single_location_wrapper -->
+	
+	<div class="single_location_wrapper right_location">
+		
+		<div class="single_locaton_image_wrapper">
+			
+			<img class="single_location_image" src="<?php bloginfo('template_directory');?>/images/mission-valley-bw.png"/>
+			
+			<img class="single_location_image color_image" src="<?php bloginfo('template_directory');?>/images/mission-valley.png"/>
+			
+			
+			
+			<img class="location_selected" src="<?php bloginfo('template_directory');?>/images/green.svg"/>
+			
+		</div><!-- single_locaton_image -->
+		
+		<span class="location_title">Mission Valley</span><!-- location_title -->
+		
+	</div><!-- single_location_wrapper -->
+	
+	</div><!-- location_wrapper -->
+	
+	
+	<div class="choose_wrapper">
+			
+			<span class="choose_cta">Choose your favorite review site</span><!-- choose_cta -->
+			
+		</div><!-- choose_wrapper -->
+	
 	
 	
 	

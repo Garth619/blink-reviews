@@ -17,11 +17,15 @@
 			
 			<img class="single_location_image" src="<?php bloginfo('template_directory');?>/images/mission-valley-bw.png"/>
 			
-			<span class="location_title">Mission Valley</span><!-- location_title -->
+			<img class="single_location_image color_image" src="<?php bloginfo('template_directory');?>/images/mission-valley.png"/>
+			
+			
 			
 			<img class="location_selected" src="<?php bloginfo('template_directory');?>/images/green.svg"/>
 			
 		</div><!-- single_locaton_image -->
+		
+		<span class="location_title">Mission Valley</span><!-- location_title -->
 		
 	</div><!-- single_location_wrapper -->
 	
@@ -31,11 +35,15 @@
 			
 			<img class="single_location_image" src="<?php bloginfo('template_directory');?>/images/mission-valley-bw.png"/>
 			
-			<span class="location_title">Mission Valley</span><!-- location_title -->
+			<img class="single_location_image color_image" src="<?php bloginfo('template_directory');?>/images/mission-valley.png"/>
+			
+			
 			
 			<img class="location_selected" src="<?php bloginfo('template_directory');?>/images/green.svg"/>
 			
 		</div><!-- single_locaton_image -->
+		
+		<span class="location_title">Mission Valley</span><!-- location_title -->
 		
 	</div><!-- single_location_wrapper -->
 	

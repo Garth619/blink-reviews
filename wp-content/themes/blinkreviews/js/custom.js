@@ -67,5 +67,16 @@ $(document).on('lv_after_field_invalid',function(event,element){
 
 
 
+// Location Selection
+
+
+$('.single_location_wrapper').on('click', function(e) {
+	
+	$(this).addClass('selected');
+  
+});
+
+
+
 
 }); // document ready

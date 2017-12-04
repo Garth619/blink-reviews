@@ -203,7 +203,7 @@ img.single_location_image {
 }
 
 
-.single_location_wrapper.left_location.selected.return {
+.single_location_wrapper.left_location.return {
 	animation-name: selected_left_return;
   animation-duration: 900ms;
   animation-fill-mode: both;
@@ -227,7 +227,7 @@ img.single_location_image {
 
 
 
-.single_location_wrapper.right_location.selected.return {
+.single_location_wrapper.right_location.return {
 	animation-name: selected_right_return;
   animation-duration: 900ms;
   animation-fill-mode: both;

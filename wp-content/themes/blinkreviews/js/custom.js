@@ -72,7 +72,7 @@ $(document).on('lv_after_field_invalid',function(event,element){
 
 $('.single_location_wrapper').on('click', function(e) {
 	
-	$(this).addClass('selected');
+	$(this).toggleClass('selected');
 	
 	// Fade away other location
 	
@@ -81,11 +81,16 @@ $('.single_location_wrapper').on('click', function(e) {
 	
 	// Fade Logo and CTAs
 	
-	$('section.section_location .location_tee_up').addClass('fade');
+	$('section.section_location .location_tee_up').toggleClass('fade');
 	
 	// Call in Location Social Icons
 	
-	$('.choose_wrapper').addClass('selected');
+	$('.choose_wrapper').toggleClass('selected');
+	
+	$('.single_location_wrapper').removeClass('return');
+	
+	
+	$('.change_location').removeClass('selected');
 	
 	
 });
@@ -118,7 +123,37 @@ $('.change_location').on('click', function(e) {
 	$('.choose_wrapper').removeClass('selected');
 	
 	
-	$('.single_location_wrapper').addClass('return');
+	$('.single_location_wrapper:visible').toggleClass('return');
+	
+	
+	$('.single_location_wrapper').removeClass('selected');
+	
+	
+	// Fade Logo and CTAs
+	
+	
+	
+	
+	$('section.section_location .location_tee_up').delay(1000).queue(function(){
+     
+		$(this).removeClass('fade').dequeue();
+  
+	});
+	
+	
+	
+	
+	// Call in Location Social Icons
+	
+	$('.choose_wrapper').removeClass('selected');
+	
+	// Fade away other location
+	
+	// $('.single_location_wrapper').not(this).delay(1000).fadeIn(500);
+	
+	$('.single_location_wrapper:hidden').delay(1000).fadeIn(500);
+	
+
 
 });
 

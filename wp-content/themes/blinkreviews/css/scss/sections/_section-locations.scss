@@ -5,12 +5,16 @@ section.section_location {
 	position: fixed;
 	top:0;
 	left:0;
-	z-index: 30000;
+
 	text-align: center;
 	padding-top:50px;
 	
 	//overflow-y: scroll;
-	display: none;
+	
+	
+	// display: none;
+	z-index: 30000;
+	// z-index:0;
 	
 }
 
@@ -30,6 +34,8 @@ section.section_location {
 
 .location_tee_up.fade {
 	opacity: 0;
+	
+	transition-delay: 1000ms;
 }
 
 
@@ -98,7 +104,10 @@ img.single_location_image {
 		opacity: 1;
 	}
 	img.location_selected {
-		opacity: 1;
+		animation-name: image_selected_fade, image_selected_pulse;
+		animation-duration: 50ms, 280ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, ease;
 	}
 	span.location_title {
 		color:$pink;
@@ -107,36 +116,74 @@ img.single_location_image {
 
 
 
+
+@keyframes image_selected_fade {
+  from {
+    opacity: 0;
+ 		
+ 		
+  }
+
+  to {
+    opacity: 1;
+   
+    
+  }
+}
+
+
+@keyframes image_selected_pulse {
+  0% {
+   transform: scale(0.1);
+ 	}
+ 	80% {
+	 	transform: scale(1.15);
+ 	}
+ 	100% {
+	 	transform: scale(1);
+ 	}
+
+  
+}
+
+
+
+
+
+
+
+
+
+
 .single_location_wrapper.left_location.selected {
 	animation-name: selected_left_move;
-  animation-duration: 1200ms;
+  animation-duration: 900ms;
   animation-fill-mode: both;
-  animation-timing-function: ease;
-  animation-delay: 300ms;
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 2000ms;
 }
+
+
 
 .single_location_wrapper.right_location.selected {
 	animation-name: selected_right_move;
-  animation-duration: 1200ms;
+  animation-duration: 900ms;
   animation-fill-mode: both;
-  animation-timing-function: ease;
-  animation-delay: 300ms;
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 2000ms;
 }
 
 
 
 
 @keyframes selected_left_move {
-  0 {
+  from {
     transform: translate(0, 0);
    }
 
-  70% {
-    
-    transform: translate(103px, 0);
-  }
   
-  100% {
+  
+  to {
 	  transform: translate(103px, -300px);
 	 }
   
@@ -144,19 +191,65 @@ img.single_location_image {
 
 
 @keyframes selected_right_move {
-  0 {
+  from {
     transform: translate(0, 0);
    }
 
-  70% {
-    
-    transform: translate(-103px, 0);
-  }
   
-  100% {
+  
+  to {
 	  transform: translate(-103px, -300px);
 	 }
 }
+
+
+.single_location_wrapper.left_location.selected.return {
+	animation-name: selected_left_return;
+  animation-duration: 900ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 600ms;
+}
+
+
+@keyframes selected_left_return {
+  from {
+    transform: translate(103px, -300px);
+   }
+
+  
+  
+  to {
+	  transform: translate(0px,0px);
+	 }
+  
+}
+
+
+
+.single_location_wrapper.right_location.selected.return {
+	animation-name: selected_right_return;
+  animation-duration: 900ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 600ms;
+}
+
+
+@keyframes selected_right_return {
+  from {
+    transform: translate(-103px, -300px);
+   }
+
+  
+  
+  to {
+	  transform: translate(0px,0px);
+	 }
+  
+}
+
+
 
 
 
@@ -183,7 +276,7 @@ span.location_title {
 	font-family: $honeyscriptlight;
 	color:$grey;
 	display: block;
-	font-size:41px;
+	font-size:45px;
 	margin: 17px 0 0 0;
 	transition: all .2s ease-in-out;
 }
@@ -195,8 +288,7 @@ img.location_selected {
   right: 19px;
   
   opacity: 0;
-  transition: all .2s ease-in-out;
- 
+	
 }
 
 
@@ -207,8 +299,9 @@ img.location_selected {
 	width:100%;
 	
 	opacity: 0;
-	transition: all .2s ease-in-out;
-	 transition-delay: 2000ms;
+	visibility: hidden;
+	transition: all 800ms ease;
+	transition-delay: 0ms;
 }
 
 
@@ -216,12 +309,74 @@ span.choose_cta {
 	color:$grey;
 	font-family: $josefin;
 	font-size:32px;
+	display: block;
+	margin:30px 0 0;
 }
 
 
 .choose_wrapper.selected {
 	opacity: 1;
+	visibility: visible;
 	
+	transition-delay: 3000ms;
 }
+
+
+
+
+
+
+.social_icons {
+	display: flex;
+	margin:35px 0 0;
+	justify-content: center;
+	a {
+		background: $pink;
+		width:100px;
+		height:100px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin:0 10px;
+	}
+	a.yelp {
+		img {
+			width:40px;
+		}
+	}
+	a.facebook {
+		img {
+			width:28px;
+		}
+	}
+	a.google {
+		img {
+			width:65px;
+		}
+	}
+}
+
+
+
+span.change_location {
+	display: block;
+	color:$grey;
+	font-size:18px;
+	font-family: $josefin;
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	cursor: pointer;
+	&:hover {
+		color:$pink;
+	}
+}
+
+span.change_location.selected {
+	opacity: 0;
+	visibility: hidden;
+}
+
+
 
 

@@ -49,7 +49,7 @@
 			
 		</div><!-- single_locaton_image -->
 		
-		<span class="location_title">Mission Valley</span><!-- location_title -->
+		<span class="location_title">Solana Beach</span><!-- location_title -->
 		
 	</div><!-- single_location_wrapper -->
 	
@@ -57,8 +57,54 @@
 	
 	
 	<div class="choose_wrapper">
+		
+			<span class="change_location">Change Location</span><!-- change_location -->
 			
 			<span class="choose_cta">Choose your favorite review site</span><!-- choose_cta -->
+			
+			<div class="social_icons mission">
+				
+				<a class="yelp" href="mission">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/yelp.svg"/>
+					
+				</a>
+				
+				<a class="facebook" href="">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/facebook.svg"/>
+					
+				</a>
+				
+				<a class="google" href="">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/google-plus.svg"/>
+					
+				</a>
+				
+			</div><!-- social_icons -->
+			
+			<div class="social_icons solana">
+				
+				<a class="yelp" href="solana">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/yelp.svg"/>
+					
+				</a>
+				
+				<a class="facebook" href="">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/facebook.svg"/>
+					
+				</a>
+				
+				<a class="google" href="">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/google-plus.svg"/>
+					
+				</a>
+				
+			</div><!-- social_icons -->
 			
 		</div><!-- choose_wrapper -->
 	

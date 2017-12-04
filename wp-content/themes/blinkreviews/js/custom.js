@@ -76,7 +76,7 @@ $('.single_location_wrapper').on('click', function(e) {
 	
 	// Fade away other location
 	
-	$('.single_location_wrapper').not(this).fadeOut();
+	$('.single_location_wrapper').not(this).delay(1000).fadeOut(500);
 	
 	
 	// Fade Logo and CTAs
@@ -85,10 +85,44 @@ $('.single_location_wrapper').on('click', function(e) {
 	
 	// Call in Location Social Icons
 	
-	$('.choose_wrapper').addClass('selected')
+	$('.choose_wrapper').addClass('selected');
 	
-  
+	
 });
+
+$('.left_location').on('click', function(e) {
+  
+
+	$('.social_icons.solana').hide();
+
+
+});
+
+
+$('.right_location').on('click', function(e) {
+  
+
+	$('.social_icons.mission').hide();
+
+
+});
+
+
+// Reverse Location Selection
+
+
+$('.change_location').on('click', function(e) {
+  
+	$(this).addClass('selected');
+	
+	$('.choose_wrapper').removeClass('selected');
+	
+	
+	$('.single_location_wrapper').addClass('return');
+
+});
+
+
 
 
 

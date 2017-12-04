@@ -9,6 +9,7 @@ section.section_form {
 	
 	overflow-y: scroll;
 	display: none;
+	-webkit-overflow-scrolling: touch;
 	svg.logo {
 		max-width:300px;
 		width:100%;
@@ -25,7 +26,6 @@ section.section_form {
 
 
 	
-
 
 
 span.form_title {
@@ -95,6 +95,7 @@ span.pink_accent {
 			}
 		}
 		li {
+			position: relative;
 			&:before {
 				content:"";
 				display: block;
@@ -104,6 +105,8 @@ span.pink_accent {
 				background-size: 28px 34px;
 				top:15px;
 				left:10px;
+				z-index:100;
+				
 			}
 		}
 		li#field_1_1 {
@@ -158,11 +161,11 @@ span.pink_accent {
 				font-family: $josefin;
 				color:$grey;
 				font-size:20px;
+				-webkit-appearance: none;
 				
 			}
 			input {
-				height:70px;
-				padding:0px 45px 0;
+				padding: 26px 45px 26px;
 			}
 			textarea {
 				display: block;

@@ -18,6 +18,16 @@ jQuery(document).ready(function($){
 		$('section.stars_prompt').fadeOut();
 		
 		$('section.section_form').delay(600).fadeIn();
+		
+		$('.deals_tab_wrapper').addClass('hide');
+		
+		
+		$('.deals_tab_wrapper').delay(2000).queue(function(){
+		     
+				$(this).removeClass('hide ready').dequeue();
+		  
+			});
+			
 	
 	
 	});
@@ -36,13 +46,19 @@ jQuery(document).ready(function($){
 
 
 
-$('.deals_tab').addClass('fade');
+$('.deals_tab_wrapper').addClass('ready');
 	
 
 $('.deals_tab').on('click', function(e) {
 	  
 	$('section.deals').toggleClass('open');
 	
+});
+
+$(document).on("gform_confirmation_loaded", function (e, form_id) {
+  
+  $('.deals_tab_wrapper').addClass('ready');
+  
 });
 	
 	

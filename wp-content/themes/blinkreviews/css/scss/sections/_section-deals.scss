@@ -23,6 +23,8 @@ section.deals.open {
 
 .deals_tab_wrapper {
 	text-align: center;
+	opacity: 0;
+	visibility: hidden;
 }
 
 .deals_tab {
@@ -36,9 +38,9 @@ section.deals.open {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	cursor: pointer;
-	transition: all .2s ease-in-out;
+	transition: all .2s ease;
 	
-	opacity: 0;
+	
 	&:hover {
 		
 	}
@@ -47,7 +49,7 @@ section.deals.open {
 
 
 
-.deals_tab.fade {
+.deals_tab_wrapper.ready {
 	animation-name: dealstab_fade, dealstab_move;
   animation-duration: 500ms, 1000ms;
   animation-fill-mode: both;
@@ -59,14 +61,19 @@ section.deals.open {
 
 
 
+
+
+
 @keyframes dealstab_fade {
   
   from {
     opacity: 0;
+    visibility: hidden;
  	}
 
   to {
     opacity: 1;
+    visibility: visible;
    }
 }
 
@@ -84,8 +91,40 @@ section.deals.open {
 }
 
 
+.deals_tab_wrapper.ready.hide {
+	animation-name: dealstab_fadeout, dealstab_moveout;
+  animation-duration: 500ms, 1000ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 10ms;
+}
 
 
+@keyframes dealstab_fadeout {
+  
+  from {
+    opacity: 1;
+    visibility: visible;
+ 	}
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+   }
+}
+
+
+
+@keyframes dealstab_moveout {
+  
+  from {
+    transform: translateY(0px);
+ 	}
+
+  to {
+    transform: translateY(300px);
+   }
+}
 
 
 

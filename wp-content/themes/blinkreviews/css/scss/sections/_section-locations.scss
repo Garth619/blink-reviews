@@ -12,9 +12,9 @@ section.section_location {
 	//overflow-y: scroll;
 	
 	
-	// display: none;
-	z-index: 30000;
-	// z-index:0;
+	display: none;
+	// z-index: 30000;
+	z-index:0;
 	
 }
 
@@ -35,7 +35,7 @@ section.section_location {
 .location_tee_up.fade {
 	opacity: 0;
 	
-	transition-delay: 1000ms;
+	transition-delay: 400ms;
 }
 
 
@@ -160,7 +160,7 @@ img.single_location_image {
   animation-duration: 900ms;
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 2000ms;
+  animation-delay: 800ms;
 }
 
 
@@ -170,7 +170,7 @@ img.single_location_image {
   animation-duration: 900ms;
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(.17,.66,.34,.98);
-  animation-delay: 2000ms;
+  animation-delay: 800ms;
 }
 
 
@@ -318,7 +318,7 @@ span.choose_cta {
 	opacity: 1;
 	visibility: visible;
 	
-	transition-delay: 3000ms;
+	transition-delay: 1700ms;
 }
 
 
@@ -339,6 +339,10 @@ span.choose_cta {
 		justify-content: center;
 		align-items: center;
 		margin:0 10px;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: #ea8cac;
+		}
 	}
 	a.yelp {
 		img {

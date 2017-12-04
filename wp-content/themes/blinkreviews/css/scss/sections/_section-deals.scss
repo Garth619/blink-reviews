@@ -5,7 +5,14 @@ section.deals {
 	top:calc(100% - 47px);
 	transition: all 600ms cubic-bezier(.17,.66,.34,.98);
 	z-index:50;
+	
+
+	
+
 }
+
+
+
 
 
 
@@ -29,7 +36,61 @@ section.deals.open {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	cursor: pointer;
+	transition: all .2s ease-in-out;
+	
+	opacity: 0;
+	&:hover {
+		
+	}
 }
+
+
+
+
+.deals_tab.fade {
+	animation-name: dealstab_fade, dealstab_move;
+  animation-duration: 500ms, 1000ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 3000ms;
+}
+
+
+
+
+
+@keyframes dealstab_fade {
+  
+  from {
+    opacity: 0;
+ 	}
+
+  to {
+    opacity: 1;
+   }
+}
+
+
+
+@keyframes dealstab_move {
+  
+  from {
+    transform: translateY(300px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+
+
+
+
+
+
 
 
 span.get_deals {

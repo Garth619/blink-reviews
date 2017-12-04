@@ -30,6 +30,7 @@ section.stars_prompt {
 
 
 .stars_prompt {
+
 	svg.logo {
 		max-width:300px;
 		width:100%;
@@ -117,9 +118,10 @@ span.stars_title {
 	display: block;
 	width:400px;
 	margin:0 auto;
+	span {
+		cursor: pointer;
+	}
 }
-
-
 
 .star_wrapper span.star_icon, .star_wrapper span.star_icon:hover ~ span.star_icon {
   color: $grey;

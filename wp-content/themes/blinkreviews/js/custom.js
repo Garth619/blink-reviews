@@ -32,16 +32,18 @@ jQuery(document).ready(function($){
 	
 	});
 	
-	
+// Deals
+
+
+
+$('.deals_tab').addClass('fade');
 	
 
 $('.deals_tab').on('click', function(e) {
 	  
+	$('section.deals').toggleClass('open');
 	
-		$('section.deals').toggleClass('open');
-	
-	
-	});
+});
 	
 	
 // Validation hooks for parent divs
@@ -76,7 +78,7 @@ $('.single_location_wrapper').on('click', function(e) {
 	
 	// Fade away other location
 	
-	$('.single_location_wrapper').not(this).delay(1000).fadeOut(500);
+	$('.single_location_wrapper').not(this).delay(400).fadeOut(500);
 	
 	
 	// Fade Logo and CTAs

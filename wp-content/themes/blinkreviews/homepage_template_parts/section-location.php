@@ -39,9 +39,9 @@
 		
 		<div class="single_locaton_image_wrapper">
 			
-			<img class="single_location_image" src="<?php bloginfo('template_directory');?>/images/mission-valley-bw.png"/>
+			<img class="single_location_image" src="<?php bloginfo('template_directory');?>/images/solana-bw.png"/>
 			
-			<img class="single_location_image color_image" src="<?php bloginfo('template_directory');?>/images/mission-valley.png"/>
+			<img class="single_location_image color_image" src="<?php bloginfo('template_directory');?>/images/solana.png"/>
 			
 			
 			
@@ -64,19 +64,19 @@
 			
 			<div class="social_icons mission">
 				
-				<a class="yelp" href="mission">
+				<a class="yelp" href="http://yelp.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/yelp.svg"/>
 					
 				</a>
 				
-				<a class="facebook" href="">
+				<a class="facebook" href="http://facebook.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/facebook.svg"/>
 					
 				</a>
 				
-				<a class="google" href="">
+				<a class="google" href="http://google.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/google-plus.svg"/>
 					
@@ -86,19 +86,19 @@
 			
 			<div class="social_icons solana">
 				
-				<a class="yelp" href="solana">
+				<a class="yelp" href="http://yelp.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/yelp.svg"/>
 					
 				</a>
 				
-				<a class="facebook" href="">
+				<a class="facebook" href="http://facebook.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/facebook.svg"/>
 					
 				</a>
 				
-				<a class="google" href="">
+				<a class="google" href="http://google.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/google-plus.svg"/>
 					

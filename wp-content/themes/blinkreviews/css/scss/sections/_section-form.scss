@@ -5,7 +5,7 @@ section.section_form {
 	position: fixed;
 	top:0;
 	left:0;
-	
+
 	
 	overflow-y: scroll;
 	display: none;
@@ -49,7 +49,7 @@ span.pink_accent {
 .form_wrapper {
 	max-width:760px;
 	margin:0 auto;
-	padding:0 30px;
+	padding: 0 30px 50px;
 }
 
 
@@ -260,4 +260,138 @@ span.management_title {
 	margin:35px 0;
 }
 
+
+@media screen and (max-width: 767px) {
+	
+	span.form_title {
+		font-size: 29px;
+	}
+	
+.gform_wrapper {
+
+	.gform_body {
+		
+	}
+	ul {
+		
+		&:after {
+			
+		}
+		li {
+			&:after {
+				
+			}
+		}
+		li.success {
+			&:after {
+				
+			}
+		}
+		li.invalid {
+			&:after {
+				
+			}
+		}
+		li:not(#field_1_1) {
+			width:100%;
+			float:none;
+			&:after {
+				
+			}
+		}
+		li {
+			&:before {
+				
+			}
+		}
+		li#field_1_1 {
+			&:before {
+				
+			}
+		}
+		li#field_1_2, li#field_1_3 {
+			&:before {
+				
+			}
+		}
+		li#field_1_4 {
+			&:before {
+				
+			}
+		}
+		li#field_1_5 {
+			&:before {
+				
+			}
+		}
+		li#field_1_6 {
+			&:before {
+				
+			}
+		}
+		li#field_1_8 {
+			input {
+				border-top:none;
+			}
+			&:before {
+				
+			}
+		}
+		li {
+			
+			label {
+				
+			}
+			input, textarea {
+				
+				
+			}
+			input {
+				
+			}
+			textarea {
+				
+			}
+			
+		}
+		li:nth-of-type(2n + 2) {
+			input {
+				border-right: 1px solid #e7e7e7;
+			}
+		}
+		li:nth-of-type(6) {
+			
+		}
+		li#field_1_9 {
+			
+		}
+	}
+	input.gform_button {
+		
+		&:hover {
+			
+		}
+	}
+}
+
+
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 590px) {
+	
+	.form_wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	
+} /* Media Query */
 

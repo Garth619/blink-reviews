@@ -53,7 +53,20 @@ $('.deals_tab').on('click', function(e) {
 	  
 	$('section.deals').toggleClass('open');
 	
+	$('span.get_deals').toggleClass('hide');
+	$('span.get_deals_close').toggleClass('hide');
+	
+	
 });
+
+
+
+
+
+
+// Brings back tab after form submission
+
+
 
 $(document).on("gform_confirmation_loaded", function (e, form_id) {
   

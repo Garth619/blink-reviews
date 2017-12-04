@@ -151,7 +151,10 @@ $('.change_location').on('click', function(e) {
 	
 	// $('.single_location_wrapper').not(this).delay(1000).fadeIn(500);
 	
-	$('.single_location_wrapper:hidden').delay(1000).fadeIn(500);
+	$('.single_location_wrapper:hidden').delay(1250).fadeIn(500);
+	
+	
+	$('.social_icons.solana, .social_icons.mission').delay(1300).fadeIn();
 	
 
 

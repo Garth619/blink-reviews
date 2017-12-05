@@ -73,7 +73,10 @@ img.single_location_image {
 
 
 
-
+.single_location_wrapper.fade {
+	opacity: 0;
+	visibility: hidden;
+}
 
 
 .single_location_wrapper {
@@ -81,6 +84,10 @@ img.single_location_image {
 	position: relative;
 	width: 170px;
 	cursor: pointer;
+	transition: all 500ms ease-in-out;
+	transition-delay: 400ms;
+	opacity: 1;
+	visibility: visible;
 	&:first-of-type {
 		float:left;
 	}
@@ -446,7 +453,7 @@ span.choose_cta {
   
   
   to {
-	  transform: translate(0px, -300px);
+	  transform: translate(0px, -570px);
 	 }
 }
 
@@ -468,9 +475,18 @@ span.choose_cta {
 }
 
 
+.single_location_wrapper.right_location.return {
+	animation-name: selected_right_return;
+  animation-duration: 600ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+  animation-delay: 600ms;
+}
+
+
 @keyframes selected_right_return {
   from {
-    transform: translate(0px, -300px);
+    transform: translate(0px, -570px);
    }
 
   

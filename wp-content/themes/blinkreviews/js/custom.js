@@ -107,7 +107,9 @@ $('.single_location_wrapper').on('click', function(e) {
 	
 	// Fade away other location
 	
-	$('.single_location_wrapper').not(this).delay(400).fadeOut(500);
+	// $('.single_location_wrapper').not(this).delay(400).fadeOut(500);
+	
+	$('.single_location_wrapper').not(this).addClass('fade');
 	
 	
 	// Fade Logo and CTAs
@@ -182,7 +184,9 @@ $('.change_location').on('click', function(e) {
 	
 	// $('.single_location_wrapper').not(this).delay(1000).fadeIn(500);
 	
-	$('.single_location_wrapper:hidden').delay(1250).fadeIn(500);
+	// $('.single_location_wrapper:hidden').delay(1250).fadeIn(500);
+	
+	$('.single_location_wrapper').removeClass('fade');
 	
 	
 	$('.social_icons.solana, .social_icons.mission').delay(1300).fadeIn();

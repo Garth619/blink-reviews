@@ -1,6 +1,9 @@
 jQuery(document).ready(function($){
   
 
+	$('.preloader_circle').addClass('start');
+
+
 
 	$('.star_wrapper span.star_icon').on('click', function(e) {
   
@@ -132,8 +135,8 @@ $('.left_location').on('click', function(e) {
   
 
 	$('.social_icons.solana').hide();
-
-
+	
+	
 });
 
 

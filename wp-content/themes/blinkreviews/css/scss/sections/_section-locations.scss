@@ -397,7 +397,7 @@ span.change_location.selected {
 	
 	
 span.choose_cta {
-	font-size: 29px;
+	font-size: 25px;
 }	
 	
 	
@@ -424,7 +424,28 @@ span.choose_cta {
 	
 	
 	
-
+.social_icons {
+	margin: 24px 0 0;
+	a {
+  	width: 84px;
+		height: 84px;
+	}
+	a.yelp {
+		img {
+			width:30px;
+		}
+	}
+	a.facebook {
+		img {
+			width:20px;
+		}
+	}
+	a.google {
+		img {
+			width:55px;
+		}
+	}
+} 
 
 
 
@@ -439,7 +460,7 @@ span.choose_cta {
   
   
   to {
-	  transform: translate(0px, -300px);
+	  transform: translate(0px, -366px);
 	 }
   
 }
@@ -453,7 +474,7 @@ span.choose_cta {
   
   
   to {
-	  transform: translate(0px, -570px);
+	  transform: translate(0px, -639px);
 	 }
 }
 
@@ -463,7 +484,7 @@ span.choose_cta {
 
 @keyframes selected_left_return {
   from {
-    transform: translate(0px, -300px);
+    transform: translate(0px, -366px);
    }
 
   
@@ -486,7 +507,7 @@ span.choose_cta {
 
 @keyframes selected_right_return {
   from {
-    transform: translate(0px, -570px);
+    transform: translate(0px, -639px);
    }
 
   
@@ -499,10 +520,15 @@ span.choose_cta {
 
 
 
+.choose_wrapper {
+   top: 270px;
+ }
 
 
-
-
+span.location_cta_title {
+	font-size:33px;
+	line-height: 36px;
+}
 	
 	
 	

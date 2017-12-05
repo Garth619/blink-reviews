@@ -50,18 +50,16 @@ section.stars_prompt {
 	top: 5px;
   left: 147px;
   z-index:100;
-  
-  
-  
-  animation-name: preloader_fade, preloader_shape;
+ }
+
+
+.preloader_circle.start {
+	animation-name: preloader_fade, preloader_shape;
   animation-duration: 1800ms, 100ms;
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(.17,.66,.34,.98), linear;
   animation-delay: 2s;
-  
 
-  
-  
 }
 
 

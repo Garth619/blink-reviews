@@ -137,6 +137,34 @@ $('.left_location').on('click', function(e) {
 	$('.social_icons.solana').hide();
 	
 	
+		
+	var windowWidth = $(window).width();
+
+
+
+	function checkWidthleft() {
+    
+    if (windowWidth < 580) {
+        
+      
+    	
+    	$('.section_location').scroll();
+			
+			$(".section_location").delay(1500).animate({scrollTop: 0}, 500);
+    	   		
+    		
+    } 
+    
+    
+   };
+	
+
+	 checkWidthleft();
+	
+	
+	
+	
+	
 });
 
 
@@ -144,6 +172,27 @@ $('.right_location').on('click', function(e) {
   
 
 	$('.social_icons.mission').hide();
+	
+	var windowWidthtwo = $(window).width();
+	
+	function checkWidthright() {
+    
+    if (windowWidthtwo < 580) {
+        
+      
+    	
+    	$('.section_location').scroll();
+			
+			$(".section_location").delay(1500).animate({scrollTop: 0}, 500);
+    	   		
+    		
+    } 
+    
+    
+   };
+	
+
+	 checkWidthright();
 
 
 });

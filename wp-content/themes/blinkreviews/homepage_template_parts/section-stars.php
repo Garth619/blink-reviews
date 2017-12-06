@@ -25,11 +25,11 @@
 			
 			<div class="star_wrapper">
 				
-				<span class="star_icon star_icon_one">&bigstar;</span>
-				<span class="star_icon star_icon_two">&bigstar;</span>
-				<span class="star_icon star_icon_three">&bigstar;</span>
-				<span class="star_icon star_icon_four">&bigstar;</span>
-				<span class="star_icon star_icon_five">&bigstar;</span>
+				<span class="star_icon star_icon_one">&starf;</span>
+				<span class="star_icon star_icon_two">&starf;</span>
+				<span class="star_icon star_icon_three">&starf;</span>
+				<span class="star_icon star_icon_four">&starf;</span>
+				<span class="star_icon star_icon_five">&starf;</span>
 			
 			</div><!-- star_wrapper -->
 			

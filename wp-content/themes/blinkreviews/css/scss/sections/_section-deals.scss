@@ -168,3 +168,49 @@ svg#get_deals_svg {
 	font-family: $josefin;
 }
 
+span.redeem_title {
+	display: block;
+	text-align: center;
+	font-family: $josefinsemibold;
+	font-size: 28px;
+	letter-spacing: 1px;
+	margin:20px 0;
+	
+}
+
+
+
+.redeem_wrapper {
+	margin:55px 0;
+}
+
+
+.menu_item {
+	
+	margin-bottom:20px;
+	font-size: 27px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	.menu_item_title {
+		float:left;
+	}
+	.menu_item_price_wrapper {
+		float: right;
+		display: flex;
+	}
+}
+
+span.redeem_button {
+	background: #fff;
+	color:$pink;
+	text-decoration: none;
+	border-radius: 3px;
+	font-size:20px;
+	padding:5px;
+	display: inline-block;
+	cursor: pointer;
+}
+

@@ -19,7 +19,31 @@
 			
 			<div class="deals_content_inner">
 				
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.deals_content_inner
+				<span class="redeem_title">Redeem our special offers below!</span><!-- redeem_title -->
+				
+				
+				<div class="redeem_wrapper">
+					
+					<div class="menu_item">
+						
+						<div class="menu_item_title">Brow wax</div><!-- menu_item_title -->
+						
+						<div class="menu_item_price_wrapper">
+							
+							<span class="coupon_price">$5 off</span><!-- coupon_price -->
+							
+							<span class="redeem_button">Redeem</span><!-- redeem_button -->
+							
+						</div><!-- menu_item_price_wrapper -->
+						
+					</div><!-- menu_item -->
+					
+					
+				</div><!-- redeem_wrapper -->
+				
+				
+				
+				<span>15% off the Blink trio brush set<br/>(cleansing brush, eyeliner brush and grooming brush)<br/>regular price $30 for the set of 3</span>
 				
 				
 			</div><!-- deals_content_inner -->

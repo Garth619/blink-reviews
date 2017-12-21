@@ -19,6 +19,8 @@
 			
 			<div class="deals_content_inner">
 				
+				<div class="deals_step_one">
+				
 				<span class="redeem_title">Redeem our special offers below!</span><!-- redeem_title -->
 				
 				
@@ -96,6 +98,7 @@
 					
 				</div><!-- redeem_wrapper -->
 				
+				</div><!-- deals_step_one -->
 				
 			</div><!-- deals_content_inner -->
 			

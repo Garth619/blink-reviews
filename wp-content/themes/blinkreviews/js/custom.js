@@ -63,6 +63,19 @@ $('.deals_tab').on('click', function(e) {
 });
 
 
+// Redeem
+
+
+
+$('span.redeem_button').on('click', function(e) {
+  
+	$(this).addClass('active');
+	
+	$('.deals_step_one').delay(300).fadeOut();
+
+});
+
+
 
 
 

@@ -153,13 +153,14 @@ svg#get_deals_svg {
 	background: $pink;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
+	overflow-y: scroll;
 }
 
 
 .deals_content_inner {
 	width:100%;
 	max-width:750px;
-	padding:45px;
+	padding:45px 45px 200px 45px;
 	text-align: left;
 	color:#fff;
 	margin:0 auto;
@@ -187,20 +188,42 @@ span.redeem_title {
 
 .menu_item {
 	
-	margin-bottom:20px;
-	font-size: 27px;
+	margin-bottom:40px;
+	font-size: 26px;
 	&:after {
 		content:"";
 		clear:both;
 		display: block;
 	}
-	.menu_item_title {
-		float:left;
-	}
-	.menu_item_price_wrapper {
-		float: right;
+	.menu_item_top {
 		display: flex;
 	}
+	.menu_item_title {
+		// float:left;
+		margin-right:15px;
+		span.large_header {
+			display: block;
+		}
+		
+	}
+	.menu_item_price_wrapper {
+		// float: right;
+		display: flex;
+	}
+	.menu_item_bottom {
+		span.small_header {
+			display: block;
+			font-size: 20px;
+			margin-top:0px;
+		}
+	}
+}
+
+.white_line {
+	display: block;
+	flex-grow: 1;
+	border-top:1px solid #fff;
+	margin-top:17px;
 }
 
 span.redeem_button {
@@ -208,9 +231,125 @@ span.redeem_button {
 	color:$pink;
 	text-decoration: none;
 	border-radius: 3px;
-	font-size:20px;
-	padding:5px;
+	padding:5px 9px 0px;
 	display: inline-block;
 	cursor: pointer;
+	position: relative;
+	letter-spacing: 1px;
+	top:-8px;
+	font-family: $josefinsemibold;
+	margin-left:10px;
+	height: 31px;
+	font-size: 17px;
+	//line-height: 1;
 }
+
+
+img.tag_icon {
+	width:30px;
+	height:30px;
+	margin-top:-5px;
+	margin-left:10px;
+}
+
+.mobile_view {
+	display: flex;
+}
+
+
+.coupon_price {
+	width:81px;
+	margin-left: 10px;
+	
+}
+
+
+/*
+svg.tag_icon {
+	width:30px;
+	.tag_icon-cls-1{
+		fill:none;
+		stroke:#000;
+		stroke-miterlimit:10;
+		stroke-width:20px;
+	}
+}
+*/
+
+
+@media screen and (max-width: 565px) {
+	
+
+.redeem_wrapper {
+	text-align: center;
+}
+
+.white_line {
+	display: none;
+}
+
+
+
+.menu_item {
+	font-size:28px;
+	margin-bottom: 65px;
+	.menu_item_top {
+		display: block;
+	}
+	.menu_item_title {
+		margin-right:0;
+		span.large_header {
+    	display: inline-block;
+    	border-bottom:1px solid #fff;
+    	padding-bottom:4px;
+    	margin-bottom: 5px;
+		}
+	} 
+	.menu_item_price_wrapper {
+		display: block;
+		margin-top:20px;
+		text-align: center;
+	}
+}
+
+.mobile_view {
+	justify-content: center;
+}
+
+
+
+.coupon_price {
+	font-size: 25px;
+	// margin-left: 5px;
+	width:auto;
+}
+
+
+	img.tag_icon {
+		margin-left:0;
+	}
+	
+	.menu_item_bottom {
+		margin: 20px auto;
+		max-width: 250px;
+		
+	}
+	
+	
+	span.redeem_title {
+		max-width: 300px;
+		line-height: 30px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	span.redeem_button {
+		top:0;
+		margin-top:20px;
+		margin-left:0;
+	}
+	
+	
+} /* Media Query */
 

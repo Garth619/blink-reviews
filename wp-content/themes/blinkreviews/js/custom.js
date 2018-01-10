@@ -67,7 +67,7 @@ $('.deals_tab').on('click', function(e) {
 
 function redeemClick() {
 
-	$('span.redeem_button').one('click', function(e) {
+	$('span.redeem_button').on('click', function(e) {
   
 	
 		// Animation
@@ -118,17 +118,22 @@ $(document).on('click','.remove', function(e) {
 	// If all products are gone
 	
 	
-	if ( $('span.added_product:hidden')) {
-  
-  	$('.deals_step_two').fadeOut();
-  	
-  	$('.redeem_wrapper, .checkout, span.redeem_title').delay(300).fadeIn();
-  
- }
+	 if ( $("span.added_product:visible").length === 0) {
+      
+      
+      $(".deals_step_two").fadeOut();
+      
+      $('.redeem_wrapper, .checkout, span.redeem_title').delay(300).fadeIn();
+      
+      // Turns One Time Click Back On when going back to step one
  
- // Turns One Time Click Back On when going back to step one
+			// redeemClick();
+      
+   }
+      
+
  
- redeemClick();
+ 
 
 
 });
@@ -136,9 +141,6 @@ $(document).on('click','.remove', function(e) {
 
 
 	
-
-
-
 
 
 

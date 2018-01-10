@@ -21,7 +21,7 @@ section.section_form {
 			
 		}
 	}
-}
+
 
 
 
@@ -266,7 +266,14 @@ span.management_title {
 }
 
 
+}
+
+
 @media screen and (max-width: 767px) {
+
+
+section.section_form {
+
 	
 	span.form_title {
 		font-size: 29px;
@@ -380,7 +387,7 @@ span.management_title {
 }
 
 
-	
+	}
 	
 	
 	
@@ -392,11 +399,18 @@ span.management_title {
 
 @media screen and (max-width: 590px) {
 	
+	
+	section.section_form {
+	
+	
 	.form_wrapper {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 	
+	
+	
+}	
 	
 } /* Media Query */
 

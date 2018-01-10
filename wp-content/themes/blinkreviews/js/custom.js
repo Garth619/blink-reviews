@@ -65,15 +65,79 @@ $('.deals_tab').on('click', function(e) {
 
 // Redeem
 
+function redeemClick() {
 
-
-$('span.redeem_button').on('click', function(e) {
+	$('span.redeem_button').one('click', function(e) {
   
-	$(this).addClass('active');
 	
-	$('.deals_step_one').delay(300).fadeOut();
+		// Animation
+	
+		$(this).addClass('active');
+	
+		$(this).text('Added');
+	
+		// Add to Checkout Page
+	
+		var addeditem = $(this).parents('.menu_item').find('.large_header').text();
+	
+		$('.added_items').append('<span class="added_product">' + addeditem + '<span class="remove">Remove -</span></span');
+	
+		// Checkout Button
+	
+		$('.checkout').delay(200).fadeIn();
+	
+	});
+
+}
+
+
+redeemClick();
+
+
+
+$('span.checkout_button').on('click', function(e) {
+  
+
+	$('.redeem_wrapper, .checkout, span.redeem_title').delay(300).fadeOut();
+	
+	
+	$('.deals_step_two').delay(1200).fadeIn();
+	
+	
+});
+
+
+// Remove Redeemed Items above form
+
+$(document).on('click','.remove', function(e) {
+  
+
+	$(this).parent('span.added_product').remove();
+	
+	
+	// If all products are gone
+	
+	
+	if ( $('span.added_product:hidden')) {
+  
+  	$('.deals_step_two').fadeOut();
+  	
+  	$('.redeem_wrapper, .checkout, span.redeem_title').delay(300).fadeIn();
+  
+ }
+ 
+ // Turns One Time Click Back On when going back to step one
+ 
+ redeemClick();
+
 
 });
+
+
+
+	
+
+
 
 
 

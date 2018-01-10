@@ -11,7 +11,9 @@
 				
 				<defs><style>.get_deals_polygon{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:15px;}</style></defs>
 				
-				<polyline class="get_deals_polygon" points="1.15 1.99 114.15 81.64 227.65 1.64"/></svg>
+				<polyline class="get_deals_polygon" points="1.15 1.99 114.15 81.64 227.65 1.64"/>
+				
+			</svg>
 		
 		</div><!-- deals_tab -->
 		
@@ -98,7 +100,26 @@
 					
 				</div><!-- redeem_wrapper -->
 				
+				<div class="checkout">
+					
+					
+					
+					<span class="checkout_button">Checkout</span><!-- checkout_button -->
+					
+				</div><!-- checkout -->
+				
+				
 				</div><!-- deals_step_one -->
+				
+				<div class="deals_step_two">
+					
+					<span class="added_title">Added Products</span><!-- redeem_title -->
+					
+					<div class="added_items"></div><!-- added_items -->
+					
+					<?php gravity_form(2, false, true, false, '', true, 12); ?>
+					
+				</div><!-- deals_step_two -->
 				
 			</div><!-- deals_content_inner -->
 			

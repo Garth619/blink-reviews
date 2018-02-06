@@ -75,17 +75,13 @@ function redeemClick() {
 		$(this).addClass('active');
 	
 		$(this).text('Added');
+		
 	
-		// Add to Checkout Page
-	
-		var addeditem = $(this).parents('.menu_item').find('.large_header').text();
-	
-		$('.added_items').append('<span class="added_product">' + addeditem + '<span class="remove">Remove -</span></span');
-	
-		// Checkout Button
-	
-		$('.checkout').delay(200).fadeIn();
-	
+		// Form
+		
+		$('.deals_step_two').fadeIn(200);
+		
+			
 	});
 
 }
@@ -95,6 +91,7 @@ redeemClick();
 
 
 
+/*
 $('span.checkout_button').on('click', function(e) {
   
 
@@ -105,30 +102,36 @@ $('span.checkout_button').on('click', function(e) {
 	
 	
 });
+*/
 
 
 // Remove Redeemed Items above form
 
+/*
 $(document).on('click','.remove', function(e) {
   
 
 	$(this).parent('span.added_product').remove();
+*/
 	
 	
 	// If all products are gone
 	
 	
+/*
 	 if ( $("span.added_product:visible").length === 0) {
       
       
       $(".deals_step_two").fadeOut();
       
       $('.redeem_wrapper, .checkout, span.redeem_title').delay(300).fadeIn();
+*/
       
       // Turns One Time Click Back On when going back to step one
  
 			// redeemClick();
       
+/*
    }
       
 
@@ -137,6 +140,7 @@ $(document).on('click','.remove', function(e) {
 
 
 });
+*/
 
 
 

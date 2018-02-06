@@ -107,7 +107,7 @@
 					
 <!-- 					<span class="redeem_intructions">After selecting the deals above, please fill out the form below. You will receive a confirmation email. Show your email on your next visit to redeem your deals!</span> -->
 					
-					<?php gravity_form(2, false, true, false, '', true, 12); ?>
+					<?php gravity_form(2, false, true, false, '', true, 128); ?>
 					
 				</div><!-- deals_step_two -->
 				

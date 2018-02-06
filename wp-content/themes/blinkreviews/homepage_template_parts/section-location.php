@@ -64,45 +64,49 @@
 			
 			<div class="social_icons mission">
 				
-				<a class="yelp" href="http://yelp.com" target="_blank">
+				<a class="yelp" href="https://www.yelp.com/biz/blink-lash-boutique-san-diego?osq=Blink+Lash+Boutique+Mission+Valley" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/yelp.svg"/>
 					
 				</a>
 				
-				<a class="facebook" href="http://facebook.com" target="_blank">
+				<a class="facebook" href="https://www.facebook.com/pg/Blink-Lash-Boutique-Mission-Valley-186409668223632/reviews/?ref=page_internal" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/facebook.svg"/>
 					
 				</a>
 				
+<!--
 				<a class="google" href="http://google.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/google-plus.svg"/>
 					
 				</a>
+-->
 				
 			</div><!-- social_icons -->
 			
 			<div class="social_icons solana">
 				
-				<a class="yelp" href="http://yelp.com" target="_blank">
+				<a class="yelp" href="https://www.yelp.com/biz/blink-lash-boutique-solana-beach-2" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/yelp.svg"/>
 					
 				</a>
 				
-				<a class="facebook" href="http://facebook.com" target="_blank">
+				<a class="facebook" href="https://www.facebook.com/pg/blinklashboutiquesb/reviews/?ref=page_internal" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/facebook.svg"/>
 					
 				</a>
 				
+<!--
 				<a class="google" href="http://google.com" target="_blank">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/google-plus.svg"/>
 					
 				</a>
+-->
 				
 			</div><!-- social_icons -->
 			

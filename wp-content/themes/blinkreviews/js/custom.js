@@ -65,6 +65,7 @@ $('.deals_tab').on('click', function(e) {
 
 // Redeem
 
+/*
 function redeemClick() {
 
 	$('span.redeem_button').on('click', function(e) {
@@ -74,7 +75,7 @@ function redeemClick() {
 	
 		$(this).addClass('active');
 	
-		$(this).text('Added');
+		$(this).text('Remove');
 		
 	
 		// Form
@@ -88,6 +89,106 @@ function redeemClick() {
 
 
 redeemClick();
+*/
+
+
+function redeemClickone() {
+
+
+$('span.redeem_brow_wax').click(function() {
+  
+  var clicks = $(this).data('clicks');
+  
+  if (clicks) {
+    
+     // odd clicks
+     $(this).removeClass('active');
+     
+     $(this).text('Redeem');
+     
+      $('input#input_2_4').val("");
+     
+  
+  } else {
+     // even clicks
+     
+     // var redeemText = $(this).parents('.menu_item_top').find('span.large_header').text();
+     
+     
+		 $('input#input_2_4').val('Brow Wax');
+     
+     $(this).addClass('active');
+     
+     	$(this).text('Remove');
+     	
+     		$('.deals_step_two').fadeIn(200);
+  }
+  
+  $(this).data("clicks", !clicks);
+
+});
+
+
+}
+
+
+redeemClickone();
+
+
+
+
+
+
+
+
+
+function redeemClicktwo() {
+
+
+$('span.redeem_brush_set').click(function() {
+  
+  var clicks = $(this).data('clicks');
+  
+  if (clicks) {
+    
+     // odd clicks
+     $(this).removeClass('active');
+     
+     $(this).text('Redeem');
+     
+      $('input#input_2_5').val("");
+     
+  
+  } else {
+     // even clicks
+     
+     // var redeemText = $(this).parents('.menu_item_top').find('span.large_header').text();
+     
+     
+		 $('input#input_2_5').val('Blink Trio Brush Set');
+     
+     $(this).addClass('active');
+     
+     	$(this).text('Remove');
+     	
+     		$('.deals_step_two').fadeIn(200);
+  }
+  
+  $(this).data("clicks", !clicks);
+
+});
+
+
+}
+
+
+redeemClicktwo();
+
+
+
+
+
+
 
 
 

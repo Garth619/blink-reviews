@@ -51,7 +51,7 @@
 							
 							</div><!-- mobile_view -->
 							
-							<span class="redeem_button">Redeem</span><!-- redeem_button -->
+							<span class="redeem_button redeem_brow_wax">Redeem</span><!-- redeem_button -->
 							
 						</div><!-- menu_item_price_wrapper -->
 						
@@ -83,7 +83,7 @@
 							
 							</div><!-- mobile_view -->
 							
-							<span class="redeem_button">Redeem</span><!-- redeem_button -->
+							<span class="redeem_button redeem_brush_set">Redeem</span><!-- redeem_button -->
 							
 						</div><!-- menu_item_price_wrapper -->
 						
@@ -104,6 +104,8 @@
 				</div><!-- deals_step_one -->
 				
 				<div class="deals_step_two">
+					
+<!-- 					<span class="redeem_intructions">After selecting the deals above, please fill out the form below. You will receive a confirmation email. Show your email on your next visit to redeem your deals!</span> -->
 					
 					<?php gravity_form(2, false, true, false, '', true, 12); ?>
 					

@@ -2,27 +2,27 @@
 Contributors: wisetr, djeet
 Tags: gravity forms,gravity forms addon,gravity forms fields validation,live validation,jquery validation,client side validation,javascript validation
 Requires at least: 4.2.1
-Tested up to: 4.7
-Stable tag: 1.1.0
+Tested up to: 4.9.1
+Stable tag: 1.2.0
 License: GPLv2 or later
 
-Real Time Validation for Gravity Forms increases conversion rates of your Gravity Form using in-line validation messages as user types in field.
+Real Time Validation for Gravity Forms increases conversion rates of your Gravity Form using inline validation messages as user types in field.
 
 
 == Description ==
 
-This plugin ensures that users gets the feedback on each field as he types even before form is submitted.Specific validation messages shown to user help him quickly rectify the mistakes. 
+This plugin ensures that users get the feedback in each field as he types even before the form is submitted.Specific validation messages are shown to user help him quickly rectify the mistakes. 
 
 Major features in Real Time Validation for Gravity Forms include:
 
 * Ability to turn on/off Real Time Validation for Gravity Forms on each form.
-* Add custom error messages on each field level.
+* Add custom error messages at each field level.
 * Works with multi-step forms.
-* Works with both environment AJAX / NON AJAX.
-* Works with Conditional logic of fields.
+* Works with both environment AJAX / NON-AJAX.
+* Works with the Conditional logic of fields.
 * Works with Multiple Forms on one page.
  
-> [Click Here to Experience Real Time Validation in Action.](http://demo.formsoptimizer.com/)
+> [Click Here to Experience Real-Time Validation in Action.](http://demo.formsoptimizer.com/)
 
 = Works with following fields =
  * Text 
@@ -62,31 +62,33 @@ Here is the example of how to use hook for invalid state-
 });
 
 = Latest Updates =
-* December, 21st 2016: Compatibility Fix: Multiple forms on one page with real time validation ON.
-* December, 21st 2016: Fix: Checkbox with conditional logic issue.
+* December, 21st 2017: Compatibility With Partial Entry addon
+* December, 21st 2017: Compatibility upto Gravity Forms 2.2.5
+* December, 21st 2016: Compatibility Fix: Multiple forms on one page with real-time validation ON.
+* December, 21st 2016: Fix: Checkbox with the conditional logic issue.
 * December, 21st 2016: Fix: Multi-step form values were not getting sustained on step change.
-* December, 21st 2016: Fix: how to use video and on activation behavior fixed for GF > 2.0.0 .
+* December, 21st 2016: Fix: how to use video and on activation behavior fixed for GF > 2.0.0.
 * November, 25th 2016: Fix: Filter Regex for modifiers (flags) to prevent validation failure.
-* August, 12th 2016: Fix: Hidden state conflict with conditional logic causing fields to be disabled when form in modal popups. 
+* August, 12th 2016: Fix: Hidden state conflict with conditional logic causing fields to be disabled when the form of modal popups. 
 * August, 12th 2016: Added: JS Hooks for validation and success. 
-* August, 12th 2016: Fix: Resolved issue of form object turing into boolean TRUE, when we disable notification forever. 
+* August, 12th 2016: Fix: resolved issue of form object turning into boolean TRUE, when we disable notification forever. 
 * July, 18th 2016:  Fix: Get Param conflict with feeds.
 * July, 18th 2016:  Fix: Field setting showing even LV switched off.
 * June, 13th 2016:  Fix: Address Line number 2 was marked as required.
 * June, 13th 2016:  Fix: Conditional fields getting validated while hidden.
 * April, 30th 2016: New `How to Use` Video
-* April, 30th 2016: Compatible with tha chnages happening over form while Validation is in Off state.
-* April, 28th 2016: Compatibilty with Mozilla FireFox & Safari
-* April, 28th 2016: Compatility with mobile browsers
+* April, 30th 2016: Compatible with the changes happening over form while Validation is in Off state.
+* April, 28th 2016: Compatibility with Mozilla Firefox & Safari
+* April, 28th 2016: Compatibility with mobile browsers
 * April, 28th 2016: Better UI for Notifications
 * April, 22th 2016: Added Better User Experience
-* April, 22th 2016: Added Documenation 
+* April, 22th 2016: Added Documentation 
 * April, 22th 2016: Added Support section 
 * April, 22th 2016: Added Pro plugin Documentation
 * April, 22th 2016: Added Ajax & multistep support
 * April, 19th 2016: Added new admin notices
 * April, 18th 2016: Added new Installation Instructions.
-* April, 18th 2016: Added new set of Screenshots.
+* April, 18th 2016: Added a new set of Screenshots.
 * April, 18th 2016: Modified Labels and Tooltip's texts for better understanding.
 * April, 16th 2016: Set of popular patterns to choose from.
 * April, 16th 2016: Support for Post & Pricing fields.
@@ -109,43 +111,47 @@ PS: You'll need a working Gravity Forms to use it.
 1. Install “Real Time Validation For Gravity Form” Plugin.
 2. Activate the Plugin.
 3. Go to Forms  ->  Individual Form Settings  -> Real Time Validation.
-4. Enable Real Time Validation by toggling switch to "Yes".
-5. Go to Form Editor and Expand Any Field options. In General Tab under Rules section Check ‘Required” option to make the field required.Skip this step if field is not required.
+4. Enable Real-Time Validation by toggling switch to "Yes".
+5. Go to Form Editor and Expand Any Field options. In General Tab under Rules section Check ‘Required” option to make the field required.Skip this step if the field is not required.
 6. Go to Appearance Tab -> Custom Validation Message Section & if need be Override Default Validation Message.
-7. Go to Advanced Tab -> Check the option “Validate Real Time Input”.
-8. Under field "Enter RegEx Pattern" ,  Enter Your Own RegEx Pattern or Copy N Paste Popular RegEx Patterns from our available patterns list.
-9. Customize the Real Time Error Message  to  display above/ below the form field.
+7. Go to Advanced Tab -> Check the option “Validate Real-Time Input”.
+8. Under field "Enter RegEx Pattern", Enter Your Own RegEx Pattern or Copy N Paste Popular RegEx Patterns from our available patterns list.
+9. Customize the Real-Time Error Message to display above/ below the form field.
 10.Update form to have Real Time Validation feature activated in front end Gravity form.
 
 
 
 
 == Screenshots ==
-1. Activate Real Time Validation for Gravity Forms.
-2. Enable Real Time Validation On each form.
+1. Activate Real-Time Validation for Gravity Forms.
+2. Enable Real-Time Validation On each form.
 3. Switch it On and Save.
-4. Check the field Required on field editor.
+4. Check the field Required by field editor.
 5. Modify Error message If you want to.
 6. Enable Pattern matching under "Advanced" Tab.
 7. Type RegEx OR Choose from given patterns.
 8. List of Popular patterns.
-9. Pattern should look like this. 
-10. Input custom error message thrown when pattern validation fails.
+9. The pattern should look like this. 
+10. Input custom error message is thrown when pattern validation fails.
 11. Update the Form.
 
 
 
 == Changelog ==
 
+= 1.2.0 = 
+* Fixed: Fatal Error coming when partial entry saving AJAX gets fired.
+* Added: Compatibility with Gforms 2.2.5 & WordPress 4.9
+
 = 1.1.0 =
-* Fixed: Checkbox conditional logic was not working when RTV is on on that input.
-* Fixed: Critical bug: When inputs are getting disabled by our non visible fields logic, field values was not submitting after form submission. In multi step
-            Forms one can visualize it by loosing the selection user made at prev step. Attribute added to detect if we need to validate that field or not.
+* Fixed: Checkbox conditional logic was not working when RTV is on that input.
+* Fixed: Critical bug: When inputs are getting disabled by our non visible fields logic, field values were not submitting after form submission. In multi-step
+            Forms one can visualize it by losing the selection user made at prev step. Attribute added to detect if we need to validate that field or not.
 * Fixed multiform handling: on submit window property reset
 * Fixed multiform handling: all_validation structure modified
 * Fixed multiform handling: form id handled
 * Fixed after activation effect on version >= 2.0.0
-* Fixed Real time validation help button not showing on version >= 2.0.0
+* Fixed Real-time validation help button not showing on version >= 2.0.0
 
 
 = 1.0.17 =
@@ -156,9 +162,9 @@ PS: You'll need a working Gravity Forms to use it.
 * Fix: Undefined "all_validations" issue caused by last update. 
 
 = 1.0.15 =
-* Fix: Hidden state conflict with conditional logic causing fields to be disabled when form in modal popups. 
+* Fix: Hidden state conflict with conditional logic causing fields to be disabled when the form in modal popups. 
 * Added: JS Hooks for validation and success. 
-* Fixed: Resolved issue of form object turing into boolean TRUE, when we disable notification forever. 
+* Fixed: Resolved issue of form object turning into boolean TRUE, when we disable notification forever. 
 
 
 

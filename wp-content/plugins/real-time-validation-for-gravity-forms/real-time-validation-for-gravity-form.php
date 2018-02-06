@@ -5,10 +5,11 @@
  * Plugin Name:       Real Time Validation for Gravity Forms
  * Plugin URI:        https://wisetr.com
  * Description:       This plugin ensures that users gets the feedback on each field as he types even before form is submitted. Specific validation messages shown to user help him quickly rectify the mistakes.
- * Version:           1.1.0
+ * Version:           1.2.0
  * Author:            Wisetr
  * Author URI:        https://wisetr.com
- * Text Domain:       gravity-lv
+ * Text Domain: real-time-validation-for-gravity-forms
+   Domain Path: /languages
  *
  */
 // If this file is called directly, abort.
@@ -51,7 +52,7 @@ if(class_exists('GFForms')){
 
 function lv_init_domain()
 {
-    load_plugin_textdomain('lv-validation', FALSE, plugin_basename(dirname(__FILE__)) . '/languages');
+    load_plugin_textdomain('real-time-validation-for-gravity-forms', FALSE, plugin_basename(dirname(__FILE__)) . '/languages');
 
 }
 

@@ -346,7 +346,9 @@ if (!class_exists('Gravity_Forms_Live_Validation')) {
          */
         public function lv_apply_validations_to_form($form)
         {
-
+            if(!class_exists('GFFormDisplay')) {
+                return $form;
+            }
 
             if (isset(GFFormDisplay::$submission[$form['id']])) {
                 $this->submission = GFFormDisplay::$submission[$form['id']];
@@ -405,7 +407,7 @@ if (!class_exists('Gravity_Forms_Live_Validation')) {
                 LiveValidationForm.instances = {};
               
                 var lv_gf_is_ajax = "' . ($ajax) . '";
-                    var jqr = jQuery; ';
+                    var jqr = jQuery;';
 
                     foreach ($form['fields'] as $key => $value) {
 
@@ -434,7 +436,7 @@ if (!class_exists('Gravity_Forms_Live_Validation')) {
 
             jQuery(document).bind("gform_post_render", function(event,data,page){
             
-               
+                
                 
              try {
 

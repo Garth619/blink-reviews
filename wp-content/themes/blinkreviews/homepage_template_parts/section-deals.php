@@ -4,7 +4,7 @@
 		
 		<div class="deals_tab">
 			
-			<span class="get_deals">Get Deals</span><!-- get_deals -->
+			<span class="get_deals" onClick="ga('send', 'event', 'deals', 'click', 'deals tab');">Get Deals</span><!-- get_deals -->
 			<span class="get_deals_close hide">Close</span><!-- get_deals -->
 			
 			<svg id="get_deals_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236.8 95.08">
@@ -51,7 +51,7 @@
 							
 							</div><!-- mobile_view -->
 							
-							<span class="redeem_button redeem_brow_wax">Redeem</span><!-- redeem_button -->
+							<span class="redeem_button redeem_brow_wax" onClick="ga('send', 'event', 'redeem', 'click', 'brow wax');">Redeem</span><!-- redeem_button -->
 							
 						</div><!-- menu_item_price_wrapper -->
 						
@@ -83,7 +83,7 @@
 							
 							</div><!-- mobile_view -->
 							
-							<span class="redeem_button redeem_brush_set">Redeem</span><!-- redeem_button -->
+							<span class="redeem_button redeem_brush_set" onClick="ga('send', 'event', 'redeem', 'click', 'Blink Trio Brush Set');">Redeem</span><!-- redeem_button -->
 							
 						</div><!-- menu_item_price_wrapper -->
 						

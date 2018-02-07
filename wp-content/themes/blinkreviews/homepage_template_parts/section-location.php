@@ -64,13 +64,13 @@
 			
 			<div class="social_icons mission">
 				
-				<a class="yelp" href="https://www.yelp.com/biz/blink-lash-boutique-san-diego?osq=Blink+Lash+Boutique+Mission+Valley" target="_blank">
+				<a class="yelp" href="https://www.yelp.com/biz/blink-lash-boutique-san-diego?osq=Blink+Lash+Boutique+Mission+Valley" target="_blank" onClick="ga('send', 'event', 'yelp', 'click', 'Mission Valley');">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/yelp.svg"/>
 					
 				</a>
 				
-				<a class="facebook" href="https://www.facebook.com/pg/Blink-Lash-Boutique-Mission-Valley-186409668223632/reviews/?ref=page_internal" target="_blank">
+				<a class="facebook" href="https://www.facebook.com/pg/Blink-Lash-Boutique-Mission-Valley-186409668223632/reviews/?ref=page_internal" target="_blank" onClick="ga('send', 'event', 'facebook', 'click', 'Mission Valley');">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/facebook.svg"/>
 					
@@ -88,13 +88,13 @@
 			
 			<div class="social_icons solana">
 				
-				<a class="yelp" href="https://www.yelp.com/biz/blink-lash-boutique-solana-beach-2" target="_blank">
+				<a class="yelp" href="https://www.yelp.com/biz/blink-lash-boutique-solana-beach-2" target="_blank" onClick="ga('send', 'event', 'yelp', 'click', 'Solana Beach');">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/yelp.svg"/>
 					
 				</a>
 				
-				<a class="facebook" href="https://www.facebook.com/pg/blinklashboutiquesb/reviews/?ref=page_internal" target="_blank">
+				<a class="facebook" href="https://www.facebook.com/pg/blinklashboutiquesb/reviews/?ref=page_internal" target="_blank" onClick="ga('send', 'event', 'facebook', 'click', 'Solana Beach');">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/facebook.svg"/>
 					

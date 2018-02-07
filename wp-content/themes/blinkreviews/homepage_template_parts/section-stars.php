@@ -25,11 +25,11 @@
 			
 			<div class="star_wrapper">
 				
-				<span class="star_icon star_icon_one">&starf;</span>
-				<span class="star_icon star_icon_two">&starf;</span>
-				<span class="star_icon star_icon_three">&starf;</span>
-				<span class="star_icon star_icon_four">&starf;</span>
-				<span class="star_icon star_icon_five">&starf;</span>
+				<span class="star_icon star_icon_one" onClick="ga('send', 'event', 'star', 'click', 'star 1');">&starf;</span>
+				<span class="star_icon star_icon_two" onClick="ga('send', 'event', 'star', 'click', 'star 2');">&starf;</span>
+				<span class="star_icon star_icon_three" onClick="ga('send', 'event', 'star', 'click', 'star 3');">&starf;</span>
+				<span class="star_icon star_icon_four" onClick="ga('send', 'event', 'star', 'click', 'star 4');">&starf;</span>
+				<span class="star_icon star_icon_five" onClick="ga('send', 'event', 'star', 'click', 'star 5');">&starf;</span>
 			
 			</div><!-- star_wrapper -->
 			
